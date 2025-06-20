@@ -15,6 +15,7 @@ RUN a2enmod rewrite
 COPY vhost.conf /etc/apache2/sites-enabled/000-default.conf
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 
+
 WORKDIR /var/www/html
 
 EXPOSE 80
